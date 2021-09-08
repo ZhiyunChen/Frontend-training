@@ -1,0 +1,21 @@
+/* All <p> child elements in section1 are selected*/
+#section1 p {
+  color: orange;
+}
+
+/*Only the first <p> child element in section2 is selected*/
+#section2 > p {
+  color: green;
+}
+
+/* All <p> immediate sibling elements of section2 are selected. 
+Please note that there cannot be elements in between.*/
+#section2 + p {
+  color: purple;
+}
+
+/* All <p> general sibling elements of section1 are selected. 
+Please note that there can be elements in between.*/
+#section1 ~ p {
+  text-decoration: underline;
+}
