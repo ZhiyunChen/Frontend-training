@@ -1,0 +1,39 @@
+/* Type selector*/
+body {
+  margin: 10px;
+}
+
+/* ID selector*/
+#products {
+  border: 5rem;
+}
+
+/* Class selector*/
+.product {
+  color: red;
+}
+
+/* Attribute selector, looking for the existence of an attribute*/
+a[target] {
+  color: green;
+}
+
+/* Attribute selector, looking for an attribute who contains the given value*/
+a[href*="google"] {
+  color: green;
+}
+
+/* Attribute selector, looking for an attribute starting with the given value*/
+a[href^="https"] {
+  color: green;
+}
+
+/* Attribute selector, looking for an attribute ending with the given value*/
+a[href$="https"] {
+  color: green;
+}
+
+/* combining multiple attribute selector*/
+a[href^="https"][href$=".com"] {
+  color: green;
+}
