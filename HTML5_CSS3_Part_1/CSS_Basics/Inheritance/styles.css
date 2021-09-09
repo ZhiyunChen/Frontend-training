@@ -1,0 +1,13 @@
+p {
+  color: dodgerblue;
+  border: 1px solid black;
+}
+/*
+ * A <strong> element inherits the color property, but not the border property of its <p> parent element
+ * To enforce inheritance, use "inherit".
+ * To remove inheritance, use "initial". 
+ */
+strong {
+  color: initial;
+  border: inherit;
+}
