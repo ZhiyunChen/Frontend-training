@@ -12,8 +12,8 @@
 
 /*
  * Why do we provide two background properties?
- * Because some old browsers do not understand gradient properties.
- * They can always fall back onto the RGB property and ignore the gradient property.
+ * Because some old browsers do not understand gradient colors.
+ * They can always fall back onto the RGB color and ignore the gradient color.
 */
 .box3 {
   width: 600px;
