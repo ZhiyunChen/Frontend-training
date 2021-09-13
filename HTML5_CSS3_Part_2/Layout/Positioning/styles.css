@@ -1,0 +1,45 @@
+.boxes1 {
+  border: 3px solid lightgray;
+}
+
+.boxes2 {
+  border: 3px solid lightgray;
+  position: relative;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one-one {
+  background: gold;
+}
+
+.box-one-two {
+  background: tomato;
+  position: relative;
+  left: 4rem; /* add space to the left side*/
+  right: 4rem; /* It has exactly the same effect as "left: -4rem"*/
+  top: 2rem;
+  z-index: -1; /*set the element closer (positive value) or more distant (negative) to the viewer*/
+}
+
+.box-one-three {
+  background: dodgerblue;
+}
+
+.box-two-one {
+  background: gold;
+}
+
+.box-two-two {
+  background: tomato;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.box-two-three {
+  background: dodgerblue;
+}
