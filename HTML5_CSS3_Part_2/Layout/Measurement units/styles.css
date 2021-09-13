@@ -1,0 +1,20 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
+
+.box2 {
+  width: 50%;
+  height: 30vh;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
+
+.box3 {
+  width: 10rem;
+  height: 30vh;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
