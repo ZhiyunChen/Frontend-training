@@ -1,0 +1,42 @@
+.container1 {
+  display: grid;
+  /*3 * 2 grid*/
+  grid-template-rows: 100px auto 100px;
+  grid-template-columns: 30fr 70fr;
+  border: 3px solid lightgray;
+  justify-items: center;
+  align-items: center;
+  justify-content: right;
+  align-content: center;
+  height: 100vh;
+  row-gap: 3px;
+  column-gap: 10px;
+}
+
+.container2 {
+  display: grid;
+  grid-template: 100px auto 100px / 30fr 70fr;
+  grid-template-areas:
+    "header  header"
+    "sidebar main"
+    ".  footer";
+}
+
+.box {
+  width: 3rem;
+  height: 3rem;
+  background: gold;
+}
+
+.box-one {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.box-two {
+  grid-area: header;
+}
+
+.box-four {
+  grid-area: footer;
+}
