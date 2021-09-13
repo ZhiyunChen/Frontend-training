@@ -1,6 +1,0 @@
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red; /* cannot use color here! It shows no effect.*/
-  border: 10px;
-}

@@ -1,0 +1,22 @@
+/* The universal selector, *, does not include pseudo elements.
+ * One must specify these elements to take effect. 
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px; /*This property applies only to the content of the box*/
+  height: 100px; /*This property applies only to the content of the box*/
+  background-color: red; /* cannot use color here! It shows no effect.*/
+  border: 10px; /*This property makes the overall size of the box bigger*/
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  display: inline-block;
+}
