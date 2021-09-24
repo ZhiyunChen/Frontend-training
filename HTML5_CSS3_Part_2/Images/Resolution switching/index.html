@@ -12,6 +12,14 @@
       class="meal"
       src="../images/meal.jpg"
       alt="A bowl of salmon and curry"
+      srcset="
+        ../images/meal.jpg     400w,
+        ../images/meal@2x.jpg  800w,
+        ../images/meal@3x.jpg 1200w
+      "
+      sizes="(max-width: 500px) 100vw,
+             (max-width: 700px) 50vw,
+             33vw"
     />
   </body>
 </html>
